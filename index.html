@@ -16,13 +16,18 @@
             <nav class="navbar"> 
                 <ul>
                     <li><a href="#">HOMES</a></li>
-                    <li><a href="#">WINES</a></li>
-                    <li><a href="#">OUR STORY</a></li>
-                    <li><a href="#">EXPERIENCES</a></li>
-                    <li><a href="#">VISIT</a></li>
-                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#wine">WINES</a></li>
+                    <li><a href="#about">OUR STORY</a></li>
+                    <li><a href="#experiences">EXPERIENCES</a></li>
+                    <li><a href="#visit">VISIT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
                 </ul>
             </nav>
+
+            <div class="ham">
+                <i class="ph ph-list"></i>
+            </div>
+
             <div class="icons">
                 <a href="#"><i class="ph ph-shopping-cart active"></i></a>
                 <a href="#"><i class="ph ph-magnifying-glass"></i></a>
@@ -43,21 +48,21 @@
                         </p>
 
                         <div class="cta">
-                        <a href="#" class="btn">EXPLORE OUR WINES</a>
+                        <a href="wine.html" class="btn">EXPLORE OUR WINES</a>
                         <a href="#" class="secondary-btn">VISIT  OUR CELLAR</a>
                         </div>
 
                     </div>
 
                 <div class="hero-img">
-                <img src="images/wine1.png" alt="Hero Image">
+                <img src="images/backupwine.png" alt="Hero Image" class="wine-img">
             </div>
 
             </div>
         </section>
 
         <!--This is the featured section-->
-        <section class="highlight">
+        <section class="highlight" id="wine">
             <div class="feature">
                 <div class="feature-text">
                     <div class="feature-header">
@@ -66,9 +71,9 @@
                     </div>
 
                     <div class="feature-subheader">
-                      <h6>VIEW ALL WINES
-                        <span class="arrow"><i class="ph ph-arrow-right"></i></span>
-                      </h6>
+                      <a href="wine.html">VIEW ALL WINES
+                        <i class="ph ph-arrow-right arrow"></i>
+                      </a>
                     </div>
                 </div>
                   <!--wine1-->
@@ -150,7 +155,212 @@
                 </div>
             </div>
         </section>
+
+
+        <!--This is the about section-->
+        <section id="about">
+           <div class="about">
+            <div class="about-black"></div>
+            <div class="about-flex">
+            <div class="about-text">
+                <h6 >OUR STORY</h6>
+                <h2>THREE DECADES OF WINESALING</h2>
+                <img src="images/design.png" alt="design image" class="design-img">
+                <p>At T-bills Winery, we are more than just a winery; we are a family of passionate artisans dedicated to crafting 
+                     exceptional wines that embody the spirit of our land and the love we pour into every bottle. Our story is one of tradition,
+                      innovation, and a relentless pursuit of excellence.</p>
+                <a href="#" class="btn">DISCOVER OUR WINE</a>
+            </div>
+
+               <div >
+                    <img src="images/grapes2.png" alt="grapes" class="grapes">
+                </div>
+                
+            </div>
+        
+           </div>
+        </section>
+
+        <!--This is the experience section-->
+        <section id="experiences">
+            <div class="experience-text">
+                <h5>EXPERIENCE T-BILLS WINERY</h5>
+            </div>
+
+            <div class="experience-flex">
+                <!-- Experience 1 -->
+                <div class="experience-content">
+                    <div class="experience-img">
+                        <i class="ph ph-wine "></i>
+                    </div>
+                    <div class="experience-context">
+                        <h6>WINE TASTING</h6>
+                        <p>Savor our finest collection in a guided 
+                            tasting experience.
+                        </p>
+                    </div>
+                </div>
+                <!-- Experience 2 -->
+                <div class="experience-content"> 
+                    <div class="experience-img">
+                        <i class="ph ph-binoculars"></i>
+                    </div>
+                    <div class="experience-context">
+                        <h6>VINEYARD TOUR</h6>
+                        <p>Explore our vineyards and learn about our wine making 
+                            process.
+                        </p>
+                    </div>
+                </div>
+                   <!-- Experience 3 -->
+                <div class="experience-content">
+                    <div class="experience-img">
+                        <i class="ph ph-crown "></i>
+                        </div>
+                    <div class="experience-context">
+                        <h6>MEMBERSHIP CLUB</h6>
+                        <p>Join our exclusive club for special releases and 
+                            member benefits.
+                        </p>
+                    </div>
+                </div>
+                    <!-- Experience 4 -->
+                <div class="experience-content ">
+                    <div class="experience-img">
+                        <i class="ph ph-lock-laminated"></i>
+                    </div>
+                    <div class="experience-context last">
+                        <h6>PRIVATE CELLAR</h6>
+                        <p>Reserve our private cellar 
+                             for special events and celebrations.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--This is the visit section-->
+        <section id="visit">
+            <div class="visit">
+            <div class="visit-text">
+                <h5>WHAT OUR GUESTS SAY</h5>
+            </div>
+
+            <div class="visit-flex">
+                <!-- Testimonial 1 -->
+                <div class="visit-content">
+                    <p>T-bills has been a wonderful experience for us. The wines are exceptional 
+                        and the staff is incredibly knowledgeable.</p>
+                        <div class="visit-context">
+                            <img src="images/placeholder-male.png" alt="James U." class="visit-img">
+                            <div class="visit-tag">
+                                <h6>James U.</h6>
+                                <p>Wine Enthusiast</p>
+                            </div>
+                        </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                  <div class="visit-content">
+                    <p>I have been coming to T-bills for years and I never cease to be amazed by the 
+                         quality of the wines and the professionalism of the staff.</p>
+                        <div class="visit-context">
+                            <img src="images/placeholder-female.png" alt="Linda E." class="visit-img">
+                            <div class="visit-tag">
+                                <h6>Linda E.</h6>
+                                <p>Ikpa Road, UYo</p>
+                            </div>
+                        </div>
+
+                </div>
+
+                <!-- Testimonial 3 -->
+                  <div class="visit-content">
+                    <p>I had a case of T-bills wines for my wedding and they were a hit with all my guests, shop with them for your quality wine 
+                        abeg.</p>
+                        <div class="visit-context">
+                            <img src="images/placeholder-male.png" alt="Raphael M" class="visit-img">
+                            <div class="visit-tag">
+                                <h6>Raphael M.</h6>
+                                <p>Oron Road, Uyo.</p>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+            </div>
+        </section>
+
     </main>
+
+    <footer id="contact">
+        <div class="footer">
+            <div class="footer-logo">
+                <div class="footer-name">
+                <img src="images/Winelogo.png" alt="T-bills Winery Logo">
+                <h6>T-bills Winery</h6>
+                </div>
+                <p>Crafted from tradition, poured with elegance.</p>
+                <div class="footer-icons"> 
+                    <a href=""><i class="ph ph-facebook-logo"></i></a>
+                    <a href=""><i class="ph ph-instagram-logo"></i></a>
+                    <a href=""><i class="ph ph-twitter-logo"></i></a>
+                    <a href=""><i class="ph ph-youtube-logo"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-nav">
+                <div class="footer-text">
+                    <h6>QUICK LINKS</h6>
+                </div>
+                <ul>
+                    <li><a href="#">HOMES</a></li>
+                    <li><a href="wine.html">WINES</a></li>
+                    <li><a href="#about">OUR STORY</a></li>
+                    <li><a href="#experiences">EXPERIENCES</a></li>
+                    <li><a href="#">VISIT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h6>CUSTOMER CARE</h6>
+                </div>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">SHIPPING & RETURNS</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">TERMS OF SERVICE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-context">
+                <div class="footer-text">
+                    <h6>STAY UPDATED</h6>
+                </div>
+                <div class="footer-message">
+                    <input type="email" placeholder="Enter your email">
+                    <button onclick="sendEmail()"><i class="ph ph-telegram-logo"></i></button>
+                </div>
+            </div>
+
+            <div class="footer-address">
+                <div class="footer-text">
+                    <h6>OUR ADDRESS</h6>
+                <div class="footer-map">
+                <i class="ph ph-map-pin"></i>
+                <p>123 Wine Street, Ibesikpo, Akwa Ibom State</p>
+            </div>
+
+        </div>
+        <div class="footer-copyright">
+                <p>&copy; 2024 T-bills Winery. All rights reserved.</p>
+            </div>
+    </footer>
     
 </body>
 </html>

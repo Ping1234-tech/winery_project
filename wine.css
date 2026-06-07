@@ -1,0 +1,150 @@
+:root {
+    --main-background-color: #0d0507;
+    --accent-color: #ab8405;
+    --secondary-color: #1a0b0d;
+    --main-text-color: #fff;
+    --footer-color: #210701;
+    --main-transparent-color: #0d050780;
+    --secondary-transparent-color: #1a0b0d80;
+    --tertiary-transparent-color: #ab840580;
+    --primary-transparent-color: #210701cc;
+    --accent-transparent-color: #0d0507cc;
+    --main-dark-color:#0d0d0d;
+    --main-dark-transparent-color: #0d0d0d80;
+    --main-dark-accent-transparent-color:#0d0d0dcc;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background-color: var(--main-background-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+     color: var(--main-text-color);
+    font-family: cormorant garamond, serif;
+    font-size: 40px;
+    padding-left: 50px;
+}
+
+.wine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.wine a {
+    display: inline-block;
+    color: var(--accent-color);
+    transition: transform 0.3s ease;
+}
+
+i{
+    font-size: 10px;
+}
+
+.wine a:hover   {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.wine-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px,1fr));
+    gap: 10px;
+    padding: 0 50px;
+}
+
+.wine-content {
+    background-color: var(--secondary-transparent-color);
+    border-radius: 10px;
+    padding: 50px;
+    height: 50%;
+    transition:transform 0.3s ease-in-out;
+}
+
+.wine-content:hover {
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.collection {
+    display: flex;
+    gap: 20px;
+    color: var(--main-text-color);
+    position: relative;
+}
+
+.collection-text h5 {
+     font-size: 15px;
+     font-family: cormorant garamond, serif;
+     max-width: 500px;
+     margin: -15px 0;
+}
+
+.collection-text h6 {
+    font-size: 10px;
+    color: var(--accent-color);
+    margin-top: 25px ;
+}
+
+.collection-text p {
+    max-width: 250px;
+    font-size: 8px;
+}
+
+.collection-icons {
+    margin-top: 30%;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.cart {
+    border: 1px solid var(--accent-color);
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 8px;
+    color: var(--accent-color);
+    justify-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: -20px;
+}
+
+.highlight {
+    background-color: var(--secondary-transparent-color);
+    width: 100%;
+    height: auto;
+}
+
+.collection img {
+    width: 80%;
+    height: 150px;
+    display: inline;
+    margin-left: -50px;
+}
+
+.wine-footer {
+    text-align: center;
+    color: var(--main-text-color);
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.wine-footer a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
