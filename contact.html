@@ -19,8 +19,8 @@
     </section>
 
     <section class="contact">   
-        <form action="" class="contact-form">
-            <h6>Your Information here</h6>
+        <form action="" class="contact-form" name="order">
+            <h6>Your Order Information here</h6>
             <input type="text" placeholder="Brand/Name Of Wine" class="wine-brand">
             <input type="number" placeholder="how many?" min="1" max="100" class="wine-num">
             <label for="">select a payment method</label>
@@ -30,9 +30,17 @@
                 <option value="delivery">Payment on Delivery</option>
             </select>
 
-            <button>place order</button>
+            <button type="submit" name="order">place order</button>
 
         </form>
+    </section>
+
+    <section class="contact-footer">
+        <h6 class="contact-flex">For Enquiry, Message us on
+        <a href="https://wa.me/09037031857?text=Hi%20T-Bills%20Winery%20,%20I%20want%20to%20make%20an%20enquiry." target="_blank">
+            <img src="images/whatsapp-logo.png" alt="whatsapp-logo" class="whatsapp-logo">
+        </a>
+        </h6>
     </section>
     
 </body>

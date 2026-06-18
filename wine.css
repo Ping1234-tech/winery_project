@@ -35,14 +35,14 @@ h2{
     padding-left: 50px;
 }
 
-.wine {
+.wine-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
 }
 
-.wine a {
+.wine-text a {
     display: inline-block;
     color: var(--accent-color);
     transition: transform 0.3s ease;
@@ -52,7 +52,7 @@ i{
     font-size: 10px;
 }
 
-.wine a:hover   {
+.wine-text a:hover   {
     transform: translateX(-5px);
     cursor: pointer;
 }
@@ -146,5 +146,36 @@ i{
 .wine-footer a {
     text-decoration: none;
     color: var(--accent-color);
+}
+
+@media screen and (max-width: 600px) {
+
+    h2 {
+        font-size: 20px;
+        padding-left: 20px;
+        max-width: 200px;
+    }
+
+    .wine-text {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+
+    .wine-text a {
+        font-size: 10px;
+    }
+
+    .wine-grid {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+
+    .wine-footer {
+        text-align: center;
+        font-size: 15px;
+        padding: 0 15px;
+    }
+    
 }
 

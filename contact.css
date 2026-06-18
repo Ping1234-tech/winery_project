@@ -106,3 +106,74 @@ a:hover i {
     transform: translateX(-5px);
     cursor: pointer;
 }
+
+.contact-footer {
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.whatsapp-logo {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.contact-footer h6 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-flex {
+    display: inline-flex;
+    text-align: center;
+}
+
+.contact-footer h6 a {
+    margin: 0;
+    justify-items: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 600px ){
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        margin: 10%;
+    }
+
+    .contact-form h6 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    button {
+        padding: 5px 10px;
+        margin-left: 30%;
+        margin-top: 30px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    .contact-footer {
+        padding: 0 20px;
+    }
+
+    .contact-footer h6 {
+        font-size: 12px;
+    }
+
+    .contact-footer h6 a {
+        margin-top: -8px;
+    }
+
+    .whatsapp-logo {
+        width: 30px;
+        height: 30px;
+    }
+    
+}
